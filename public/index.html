@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="stylesheet" href="./Entry_Page/style.css" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Chaterrr App</title>
+	<style rel="stylesheet" type="text/css">
+		body{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+		}
+		#message-container{
+			display:flex;
+			align-items:center;
+			padding-top:20%;
+			margin-top:30px;
+			
+
+		}
+	</style>
+	<body>
+		<div id="message-container">
+			<div class="message__area">
+
+			</div>
+
+			<div>
+				<textarea name="message" id="textarea" cols="30" rows="1"></textarea>
+			</div>
+		</div>
+		<script src="/socket.io/socket.io.js"></script>	
+		<script src="/client.js"></script>
+	</body>
+</html>
